@@ -22,6 +22,8 @@ def triangle_area(base, height):
     """
     return 0.5 * base * height
 
+def circle_area(radius):
+    return math.pi * radius**2
 def test_should_return_rectangle_area():
     assert  rectangle_area(5, 3) == 15
 def test_should_return_triangle_area():
