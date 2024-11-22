@@ -23,6 +23,14 @@ def triangle_area(base, height):
     return 0.5 * base * height
 
 def circle_area(radius):
+    """Calculates the area of a circle.
+
+    Args:
+        radius: The radius of the circle.
+
+    Returns:
+        The area of the circle (π × radius²).
+    """
     return math.pi * radius**2
 def test_should_return_rectangle_area():
     assert  rectangle_area(5, 3) == 15
