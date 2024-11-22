@@ -10,7 +10,15 @@ def rectangle_area(length, width):
     """
     return length * width
 def triangle_area(base, height):
-    
+    """Calculates the area of a triangle.
+
+    Args:
+        base: The base of the triangle.
+        height: The height of the triangle.
+
+    Returns:
+        The area of the triangle (0.5 × base × height).
+    """
     return 0.5 * base * height
 
 def test_should_return_rectangle_area():
