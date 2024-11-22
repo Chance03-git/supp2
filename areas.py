@@ -1,3 +1,4 @@
+import math
 def rectangle_area(length, width):
     """Calculates the area of a rectangle.
 
@@ -25,3 +26,5 @@ def test_should_return_rectangle_area():
     assert  rectangle_area(5, 3) == 15
 def test_should_return_triangle_area():
     assert triangle_area(8, 4) == 16
+def test_should_return_circle_area():
+    assert circle_area(2) == math.pi * 2**2
